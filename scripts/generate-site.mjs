@@ -55,6 +55,7 @@ await copyFile("./site/index.html", "./dist/404.html");
 // same SPA shell, which reads location.pathname on boot to know which plugin to show directly.
 for (const p of plugins) {
     await copyFile("./site/index.html", `./dist/${p.id}/index.html`);
+    await copyFile("./site/index.html", `./dist/${p.id}/install/index.html`);
 }
 
 // Static install files (manifest.json / index.js) are served directly by the Workers Assets layer,
