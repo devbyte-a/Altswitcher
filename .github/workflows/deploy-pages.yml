@@ -33,6 +33,7 @@ jobs:
 
       - name: Publish generated site to Pages source
         run: |
+          rm -f dist/CNAME
           rm -rf docs
           cp -a dist docs
           git config user.name "github-actions[bot]"

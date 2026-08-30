@@ -50,7 +50,6 @@ plugins.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeComp
 await writeFile("./dist/plugins-base.json", JSON.stringify(plugins, null, 2));
 await copyFile("./site/index.html", "./dist/index.html");
 await copyFile("./site/index.html", "./dist/404.html");
-await copyFile("./site/CNAME", "./dist/CNAME");
 
 // Each plugin gets its own real, bookmarkable page at /<id>/ (not just a hash route) - it's the
 // same SPA shell, which reads location.pathname on boot to know which plugin to show directly.
