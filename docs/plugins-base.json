@@ -1,0 +1,26 @@
+[
+  {
+    "id": "more-alts",
+    "name": "More Alts!",
+    "description": "Manage and switch between multiple Discord accounts, plus unlocks Discord's own native multi-account switcher.",
+    "authors": [
+      "Win8.1VMUser",
+      "John",
+      "cocobo1",
+      "Rosie"
+    ],
+    "category": "Other",
+    "status": "new",
+    "accent": "#5865f2",
+    "tagline": "Manage and switch between multiple Discord accounts, plus unlocks Discord's own native multi-account switcher.",
+    "note": "",
+    "howItWorks": "",
+    "features": [],
+    "commands": [],
+    "limitations": "",
+    "pageUrl": "https://rp.jarviscli.dev/more-alts/",
+    "installUrl": "https://rp.jarviscli.dev/more-alts/install/",
+    "sourceUrl": "https://github.com/everestmcarthur/revenge-plugins/tree/main/plugins/more-alts",
+    "issueUrl": "https://github.com/everestmcarthur/revenge-plugins/issues/new?title=%5BMore%20Alts!%5D%20"
+  }
+]

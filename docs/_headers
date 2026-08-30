@@ -1,0 +1,6 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, PUT, DELETE, OPTIONS, PATCH
+  Access-Control-Allow-Headers: authorization, content-type
+  Access-Control-Max-Age: 86400
+  Vary: Origin
